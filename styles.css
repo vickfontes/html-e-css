@@ -1,0 +1,68 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilização do cabeçalho e da navegação */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do formulário de login */
+.login-form {
+    display: flex;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
